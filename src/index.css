@@ -1,0 +1,23 @@
+main{
+  min-height: 80vh;
+}
+ol.breadcrumb{
+  font-size: 18px;
+}
+a.cont2{
+  color: #a8a7a7;
+  text-decoration: solid;
+}
+a.cont2:hover{
+  background-color: #aba9a9;
+  border-radius: 5px;
+  color:white;
+  padding: 2px;
+}
+
+.active{
+  background-color: #343a40;
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+}

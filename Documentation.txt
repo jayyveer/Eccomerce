@@ -1,0 +1,64 @@
+#To create tables in the database-
+CREATE TABLE users(
+   id              INTEGER  NOT NULL PRIMARY KEY 
+   ,name           VARCHAR(30) NOT NULL
+  ,email           VARCHAR(30) NOT NULL
+  ,password            VARCHAR(28) NOT NULL
+  
+);
+INSERT INTO users(name,email,password) VALUES
+("Jayveer","qwe@qwe","123");
+
+CREATE TABLE dproducts(
+   id              INTEGER  NOT NULL PRIMARY KEY 
+  ,p_id		 INTEGER
+,thumbnail		VARCHAR(30) NOT NULL
+  ,title            VARCHAR(30) NOT NULL
+,category		VARCHAR(30) NOT NULL
+  ,price           INTEGER  NOT NULL
+,discountedprice		 INTEGER
+,description		VARCHAR(30) NOT NULL
+  ,stock INTEGER
+);
+
+INSERT INTO products(id,p_id,thumbnail,title,category,price,discountedprice,discription,stock) VALUES 
+(2,222,'https://github.com/jayyveer/cosmoshop/blob/main/images/products/male/m2.jpg?raw=true','VeBNoR','Male',750,600,'Men Regular Fit Solid Spread Collar Casual Shirt',5);
+
+INSERT INTO products(id,p_id,thumbnail,title,category,price,discountedprice,discription,stock) VALUES 
+(3,333,'https://github.com/jayyveer/cosmoshop/blob/main/images/products/male/m3.jpg?raw=true','Pepzo','Male',700,500,'Men Regular Fit Solid Spread Collar Casual Shirt',5);
+
+INSERT INTO products(id,p_id,thumbnail,title,category,price,discountedprice,discription,stock) VALUES 
+(4,444,'https://github.com/jayyveer/cosmoshop/blob/main/images/products/male/m4.jpg?raw=true','Roadster','Male',1700,1500,'Men Slim Fit Checkered Casual Shirt',5);
+
+INSERT INTO products(id,p_id,thumbnail,title,category,price,discountedprice,discription,stock) VALUES 
+(5,555,'https://github.com/jayyveer/cosmoshop/blob/main/images/products/male/m5.jpg?raw=true','Surhi','Male',700,500,'Men Regular Fit Color Block Casual Shirt',5);
+
+INSERT INTO products(id,p_id,thumbnail,title,category,price,discountedprice,discription,stock) VALUES 
+(6,666,'https://github.com/jayyveer/cosmoshop/blob/main/images/products/male/m6.jpg?raw=true','Pepzo','Male',900,500,'Men Regular Fit Solid Spread Collar Casual Shirt',5);
+
+INSERT INTO products(id,p_id,thumbnail,title,category,price,discountedprice,discription,stock) VALUES 
+(8,888,'https://github.com/jayyveer/cosmoshop/blob/main/images/products/male/m7.jpg?raw=true','BLIVE','Male',700,500,'Men Regular Fit Solid Spread Collar Casual Shirt',5);
+
+INSERT INTO products(id,p_id,thumbnail,title,category,price,discountedprice,discription,stock) VALUES 
+(7,777,'https://github.com/jayyveer/cosmoshop/blob/main/images/products/male/m8.jpg?raw=true','Surhi','Male',700,500,'Men Regular Fit Color Block Casual Shirt',5);
+
+INSERT INTO products(id,p_id,thumbnail,title,category,price,discountedprice,discription,stock) VALUES 
+(9,999,'https://github.com/jayyveer/cosmoshop/blob/main/images/products/male/m9.jpg?raw=true','BLIVE','Male',700,500,'Men Regular Fit Color Block Casual Shirt',5);
+
+INSERT INTO products(id,p_id,thumbnail,title,category,price,discountedprice,discription,stock) VALUES 
+(10,1000,'https://github.com/jayyveer/cosmoshop/blob/main/images/products/male/m10.jpg?raw=true','BLIVE','Male',700,500,'Men Regular Fit Color Block Casual Shirt',5);
+
+INSERT INTO products(id,p_id,thumbnail,title,category,price,discountedprice,discription,stock) VALUES 
+(11,1111,'https://github.com/jayyveer/cosmoshop/blob/main/images/products/male/m11.jpg?raw=true','Surhi','Male',700,500,'Men Regular Fit Color Block Casual Shirt',5);
+
+INSERT INTO products(id,p_id,thumbnail,title,category,price,discountedprice,discription,stock) VALUES 
+(12,1222,'https://github.com/jayyveer/cosmoshop/blob/main/images/products/male/m12.jpg?raw=true','Pepzo','Male',700,500,'Men Regular Fit Color Block Casual Shirt',5);
+
+To start databse server
+#open workbench where we have created the database
+
+To start the backend server-
+# nodemon server.js
+
+To start the frontend-
+# npm start
